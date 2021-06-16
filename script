@@ -1,0 +1,55 @@
+push
+move
+250 250 500
+rotate
+x 30
+rotate
+y 210
+color
+0 190 100 0
+sphere
+0 0 0 80
+color
+0 0 0 0
+torus
+0 0 0 2 80
+push
+rotate
+z 90
+torus
+0 0 0 2 80
+push
+rotate
+z 30
+scale
+1 1 1.5
+torus
+25 30 0 2 48
+pop
+push
+rotate
+z -30
+scale
+1 1 1.5
+torus
+-25 30 0 2 48
+pop
+push
+rotate
+z 30
+scale
+1 1 1.5
+torus
+-25 -30 0 2 48
+pop
+push
+rotate
+z -30
+scale
+1 1 1.5
+torus
+25 -30 0 2 48
+pop
+save
+pic.png
+display
